@@ -1,0 +1,6 @@
+__pycache__/
+.env
+*.mp4
+*.log
+venv/
+node_modules/

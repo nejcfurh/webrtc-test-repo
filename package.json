@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^9.0.1",
+    "ws": "^8.18.3"
+  },
+  "name": "webrtc-test-repo",
+  "version": "2.0.0",
+  "main": "signaling/server.js",
+  "scripts": {
+    "start": "node signaling/server.js",
+    "dev": "nodemon signaling/server.js",
+    "signal": "nodemon signaling/server.js",
+    "streamer": "python3 src/webrtc_streamer.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webrtc",
+    "streaming",
+    "signaling",
+    "video"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "WebRTC video streaming solution with improved signaling server",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
